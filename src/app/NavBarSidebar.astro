@@ -4,7 +4,6 @@
 import { asset } from '../lib/data.js';
 
 import ColorModeSwitcher from '../components/ColorModeSwitcher.astro';
-import GitHubButton from '../components/GitHubButton.astro';
 import SearchInput from '../components/SearchInput.astro';
 ---
 
@@ -46,12 +45,12 @@ import SearchInput from '../components/SearchInput.astro';
 				<a href="/" class="flex ml-2 md:mr-24">
 					<img
 						src={asset('images/logo.svg')}
-						class="h-8 mr-3"
-						alt="FlowBite Logo"
+						class="h-8 mr-1"
+						alt="Logo"
 					/>
 					<span
 						class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white"
-						>Flowbite</span
+						>Tu Imagen Rx</span
 					>
 				</a>
 
@@ -59,7 +58,6 @@ import SearchInput from '../components/SearchInput.astro';
 			</div>
 
 			<div class="flex items-center">
-				<GitHubButton repository="themesberg/flowbite-astro-admin-dashboard" />
 
 				<!-- Search mobile -->
 				<button
